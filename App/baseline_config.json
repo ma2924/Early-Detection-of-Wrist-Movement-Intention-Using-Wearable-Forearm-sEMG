@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "source_file": "OpenBCI-RAW-2026-09-10_15-18-54.txt",
+  "sample_rate": 250.0,
+  "filter": {
+    "highpass_hz": 20.0,
+    "lowpass_hz": 100.0,
+    "notch_hz": 50.0,
+    "notch_q": 30.0,
+    "filter_order": 4
+  },
+  "activity_window_ms": 50.0,
+  "rearm_fraction": 0.3,
+  "feature_noise_multiplier": 2.0,
+  "channels": {
+    "CH1": {
+      "header_name": "EXG Channel 0",
+      "numeric_column": 1,
+      "k": 4.0,
+      "activity_mean": 0.8643156460055906,
+      "activity_std": 0.11563662474420665,
+      "threshold": 1.3268621449824172,
+      "reset_threshold": 1.0030795956986385,
+      "filtered_std": 21.859820629088333
+    },
+    "CH2": {
+      "header_name": "EXG Channel 1",
+      "numeric_column": 2,
+      "k": 4.0,
+      "activity_mean": 0.7493954784210896,
+      "activity_std": 0.0957200476127141,
+      "threshold": 1.132275668871946,
+      "reset_threshold": 0.8642595355563465,
+      "filtered_std": 19.291380078095145
+    },
+    "CH3": {
+      "header_name": "EXG Channel 2",
+      "numeric_column": 3,
+      "k": 4.0,
+      "activity_mean": 0.27478220115990987,
+      "activity_std": 0.036401107630488,
+      "threshold": 0.42038663168186186,
+      "reset_threshold": 0.31846353031649544,
+      "filtered_std": 6.849941481294317
+    },
+    "CH4": {
+      "header_name": "EXG Channel 3",
+      "numeric_column": 4,
+      "k": 4.0,
+      "activity_mean": 2.425632497152836,
+      "activity_std": 0.2877139059669898,
+      "threshold": 3.5764881210207955,
+      "reset_threshold": 2.7708891843132237,
+      "filtered_std": 61.958766273576124
+    }
+  }
+}
